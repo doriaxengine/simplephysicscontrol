@@ -1,0 +1,87 @@
+name: SimplePhysicsControl
+nextSceneId: 2
+selectedScene: 1
+canvasWidth: 1280
+canvasHeight: 720
+scalingMode: fitwidth
+textureStrategy: resize
+vsync: true
+windowMode: windowed
+windowWidth: 1280
+windowHeight: 720
+windowResizable: true
+luaDir: .
+startSceneId: 1
+terrainEditor:
+  brushMode: Raise
+  brushShape: Circle
+  brushFalloff: Smooth
+  brushSize: 4
+  brushStrength: 0.3
+  flattenHeight: 0.5
+  heightMapResolution: 512
+  blendMapResolution: 512
+  normalizeBlendPaint: true
+  heightMapStartAtMiddle: true
+  flattenPickOnStroke: true
+tabs:
+  - type: scene
+    filepath: Main Scene.scene
+scenes:
+  - filepath: Main Scene.scene
+    showAllJoints: false
+    showAllBones: false
+    showAllBodies: false
+    hideCameraView: false
+    hideLightIcons: false
+    hideSoundIcons: false
+    hideContainerGuides: false
+    showOrigin: true
+    showGrid3D: false
+    hideSelectionOutline: false
+    disableFaceCulling: false
+    showGrid2D: false
+    gridSpacing2D: 50
+    gridSpacing3D: 1
+    snapToGrid: false
+    snapTile: false
+    snapRotation: false
+    rotationSnapDegrees: 15
+    editorCamera:
+      type: camera_perspective
+      target: [0.10066037, 2.7197511, 4.290002]
+      up: [0, 1, 0]
+      yfov: 0.75
+      aspect: 3.3595505
+      nearClip: 0.3
+      farClip: 4000
+      position: [-29.38897, 29.36246, 4.7535343]
+  - filepath: UI Scene.scene
+    showAllJoints: false
+    showAllBones: false
+    showAllBodies: false
+    hideCameraView: false
+    hideLightIcons: false
+    hideSoundIcons: false
+    hideContainerGuides: false
+    showOrigin: true
+    showGrid3D: true
+    hideSelectionOutline: false
+    disableFaceCulling: false
+    showGrid2D: false
+    gridSpacing2D: 50
+    gridSpacing3D: 1
+    snapToGrid: false
+    snapTile: false
+    snapRotation: false
+    rotationSnapDegrees: 15
+    editorCamera:
+      type: camera_ui
+      target: [-50, -50, 0]
+      up: [0, 1, 0]
+      yfov: 0.75
+      aspect: 2.338983
+      nearClip: -10000
+      farClip: 10000
+      position: [-50, -50, 1]
+      zoom: 1
