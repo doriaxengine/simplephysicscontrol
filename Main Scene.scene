@@ -40,6 +40,7 @@ shaderKeys:
   - 8589937754
   - 12884901888
   - 17179869184
+  - 55834574848
 childScenes:
   - id: 2
     startActive: true
@@ -213,6 +214,7 @@ entities:
             hasTexCoord2: false
             hasNormalMap: false
             hasTangent: false
+            hasVertexColor3: false
             hasVertexColor4: true
             hasTextureRect: true
             hasSkinning: false
@@ -371,6 +373,7 @@ entities:
       body3d:
         type: static
         motionQuality: discrete
+        sensor: false
         numShapes: 1
         shapes:
           - type: box
@@ -503,6 +506,7 @@ entities:
             hasTexCoord2: false
             hasNormalMap: false
             hasTangent: false
+            hasVertexColor3: false
             hasVertexColor4: true
             hasTextureRect: false
             hasSkinning: false
@@ -678,6 +682,7 @@ entities:
       body3d:
         type: dynamic
         motionQuality: discrete
+        sensor: false
         numShapes: 1
         shapes:
           - type: sphere
@@ -810,6 +815,7 @@ entities:
             hasTexCoord2: false
             hasNormalMap: false
             hasTangent: false
+            hasVertexColor3: false
             hasVertexColor4: true
             hasTextureRect: false
             hasSkinning: false
@@ -968,6 +974,7 @@ entities:
       body3d:
         type: static
         motionQuality: discrete
+        sensor: false
         numShapes: 1
         shapes:
           - type: box
@@ -1100,6 +1107,7 @@ entities:
             hasTexCoord2: false
             hasNormalMap: false
             hasTangent: false
+            hasVertexColor3: false
             hasVertexColor4: true
             hasTextureRect: false
             hasSkinning: false
@@ -1258,6 +1266,7 @@ entities:
       body3d:
         type: static
         motionQuality: discrete
+        sensor: false
         numShapes: 1
         shapes:
           - type: box
@@ -1390,6 +1399,7 @@ entities:
             hasTexCoord2: false
             hasNormalMap: false
             hasTangent: false
+            hasVertexColor3: false
             hasVertexColor4: true
             hasTextureRect: false
             hasSkinning: false
@@ -1548,6 +1558,7 @@ entities:
       body3d:
         type: static
         motionQuality: discrete
+        sensor: false
         numShapes: 1
         shapes:
           - type: box
@@ -1680,6 +1691,7 @@ entities:
             hasTexCoord2: false
             hasNormalMap: false
             hasTangent: false
+            hasVertexColor3: false
             hasVertexColor4: true
             hasTextureRect: false
             hasSkinning: false
@@ -1838,6 +1850,7 @@ entities:
       body3d:
         type: static
         motionQuality: discrete
+        sensor: false
         numShapes: 1
         shapes:
           - type: box
